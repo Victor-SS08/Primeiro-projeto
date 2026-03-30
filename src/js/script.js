@@ -51,4 +51,32 @@ console.log(valor1 / valor2);
 console.log(valor1 < valor2);
 console.log(valor1 > 10 || valor2  < 10);
 console.log(valor1 == valor2);
-console.log(valor1 === valor2)
+console.log(valor1 === valor2);
+//exercicio 1
+const p = 20;
+const v = 10;
+console.log(p);
+console.log(v);
+const valorfinal = (p - v);
+console.log("valor final =", valorfinal);
+//Crie uma condição que verifique se o valor de 
+//a é estritamente igual a 20 e se b é maior ou igual a 10.
+//O console deve retornar true
+let a = 20;
+let b = 20;
+let compare = (a === 20 && b >= 10);
+console.log(compare)
+//Verificação de Segurança (Login e Token)
+//No banco, para autorizar uma transação, precisamos que o usuário esteja logado e que o token de segurança seja válido.
+var user_login = true
+var user_pass = true
+if (user_login && user_pass == true){
+    console.log("transação autorizada")
+
+};
+//forma lat
+const usuario_logado=20;
+const tempo_token=10;
+
+const transacao= (usuario_logado ===20 && tempo_token >= 10);
+console.log("transação autorizada", transacao);
