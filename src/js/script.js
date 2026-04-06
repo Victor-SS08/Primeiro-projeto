@@ -140,4 +140,37 @@ console.log(resultado)
  let logado= user =='dev'? 'usuario logado': 'usuario deslogado'
  console.log(logado)
 
+ //estrutura de repeticao
+ // o laco de repeticao e usado quando
+ //sabemos quantas vezes o codigo vai ser executado
+ for(let i=1; i<=5;i++){
+    console.log('valor',i);
+ }
 
+ const linguagens= ['java', 'phyton', 'C#','php'];
+ for(let i = 0;i<linguagens.length;i++){
+    console.log('Linguagem', i+1,":",linguagens[i])
+ }
+const techs = ['JS','HTML', 'CSS'];
+
+for(let tec of techs){
+    console.log('Estudando:', tec)
+}
+//com objetos
+const carros= {marca:'Volks', modelo:'fusca', ano:1980}
+for(let dados in carros){
+    console.log(dados,':',carros[dados])
+}
+//while - usamos quando nao sabemos a qntdade de vezes que o codigo sera executado
+let num=1;
+while(num <=10){
+    console.log('contagem', num);
+    num++
+}
+//declarando variavel indefinida
+let num1;
+//enqt numero nao for 0 ele mantem o codigo executando
+while(num !== '0'){
+    num = prompt('digite um numero ou 0 para sair:')
+    console.log('voce digitou', num)
+}
